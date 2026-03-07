@@ -1,5 +1,7 @@
 # Love and Deepspace Free Diamond Calculator
-App for calculating how many diamonds and wishes can be earned by a specific date.
+An app for calculating how many diamonds and wishes can be earned by a specific date:
+
+[Love and Deepspace Diamond Calculator](https://lettucesea939.github.io/love-and-deepspace-diamond-calculator/)
 
 Calculations assume today's rewards are already claimed. Weekly and SHC rewards are calculated from their first day of reset. Random rewards excluded.
 
@@ -14,7 +16,7 @@ Weekly Income
 - Social Media Share: 10 diamonds
 - Home Checklist: 50 diamonds
 - Weekly Gift Pack: 120 diamonds
-- Weekly Wish Gift Pack: 150 diamonds (1 wish)
+- Weekly Wish Gift Pack: 1 wish
 
 Monthly Agenda
 - 3rd and 8th day: 10 diamonds each
