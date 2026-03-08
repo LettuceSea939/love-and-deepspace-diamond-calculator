@@ -103,7 +103,9 @@ h2::after {
 
 /* Section styles */
 .section {
-    background: var(--glass);
+    background: linear-gradient(170deg,
+            rgba(255, 255, 255, 0.8) 5%,
+            rgba(255, 255, 255, 0.2) 40%);
     border: 1px solid var(--glass-border);
     border-radius: 0 20px;
     padding: 20px;
@@ -111,6 +113,12 @@ h2::after {
     overflow: hidden;
     backdrop-filter: blur(16px);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.subscriptions {
+    background: linear-gradient(170deg,
+            rgba(255, 255, 255, 0.8) 5%,
+            rgba(255, 255, 255, 0.12) 35%);
 }
 
 /* Input group styles */
@@ -240,7 +248,6 @@ input[type=number]::-webkit-outer-spin-button {
 .checkbox-group input[type="checkbox"]:checked {
     background: var(--orange);
     border-color: transparent;
-    box-shadow: 0 0 10px rgba(255, 121, 80, 0.35);
 }
 
 .checkbox-group input[type="checkbox"]:checked::after {
@@ -302,9 +309,11 @@ input[type="submit"]:hover {
 /* Results */
 
 #result:not(:empty) {
+    background: linear-gradient(170deg,
+            rgba(255, 255, 255, 0.8) 5%,
+            rgba(255, 255, 255, 0.2) 40%);
     margin-top: 20px;
     text-align: center;
-    background: var(--glass);
     border: 1px solid var(--glass-border);
     backdrop-filter: blur(16px);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -335,7 +344,7 @@ input[type="submit"]:hover {
     font-weight: 400;
     font-style: italic;
     margin-top: 8px;
-    opacity: 0.8;
+    color: #56230c;
 }
 
 .diamond-icon {

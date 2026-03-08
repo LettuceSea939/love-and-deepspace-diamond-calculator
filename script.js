@@ -221,7 +221,12 @@ form.addEventListener("submit", (e) => {
 
     // Results
     document.querySelector("#result").innerHTML =
-        `<h3>You'll be able to save <span class="highlight"> ${finalTotal.toLocaleString()} <img src="apple-touch-icon.png" class="diamond-icon"></span> diamonds${earnedWishes > 1 ? ` and ${earnedWishes} wishes` : earnedWishes === 1 ? ` and ${earnedWishes} wish` : ""}.
-        ${totalWishes > 1 ? `<p>That's ${totalWishes} wishes!</p>` : totalWishes === 1 ? `<p>That's 1 wish!</p>` : ""} </h3>`
+        `<h3>
+        You'll be able to save 
+        <span class="highlight"> ${finalTotal.toLocaleString()} <img src="apple-touch-icon.png" class="diamond-icon">
+        </span> 
+        diamonds${earnedWishes > 1 ? ` and ${earnedWishes} wishes` : earnedWishes === 1 ? ` and ${earnedWishes} wish` : ""}.
+        ${totalWishes > 1 ? `
+        <p>That's ${totalWishes} wishes!</p>` : totalWishes === 1 ? `<p>That's 1 wish!</p>` : ""} </h3>`
 }
 );
