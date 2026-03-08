@@ -8,13 +8,13 @@
 }
 
 :root {
-    --base: #f7f7f9;
+    --base: #e8eaee;
     --orange: #FF7950;
     --gold: #6B3F2A;
-    --text: #1e1a1a;
+    --text: #100d0d;
     --muted: #4a4550;
-    --glass: rgba(255, 255, 255, 0.50);
-    --glass-border: rgba(255, 255, 255, 0.85);
+    --glass: rgba(255, 255, 255, 0.5);
+    --glass-border: rgba(255, 255, 255, 0.95);
 }
 
 /* Global Styling */
@@ -22,8 +22,8 @@ body {
     background-color: var(--base);
     background-image:
         /* grid lines */
-        repeating-linear-gradient(rgba(255, 255, 255, 0.1) 0px, rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 24px),
-        repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0px, rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 24px),
+        repeating-linear-gradient(rgba(255, 255, 255, 0.09) 0px, rgba(255, 255, 255, 0.09) 1px, transparent 1px, transparent 24px),
+        repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.09) 0px, rgba(255, 255, 255, 0.09) 1px, transparent 1px, transparent 24px),
         /* radial gradient for background */
         radial-gradient(ellipse 100% 100% at 50% 50%, transparent 40%, rgba(180, 180, 210, 1) 100%),
         radial-gradient(ellipse 60% 50% at 100% 0%, rgba(255, 150, 80, 0.25) 0%, transparent 70%),
@@ -75,6 +75,7 @@ h1 .large-font {
     color: var(--text);
     -webkit-box-reflect: below -18px linear-gradient(transparent 10%, rgba(0, 0, 0, 0.1) 100%);
 }
+
 
 h2 {
     font-weight: 300;
@@ -325,7 +326,6 @@ input[type="submit"]:hover {
     font-size: clamp(32px, 6vw, 48px);
     font-weight: 700;
     font-style: italic;
-    color: var(--gold);
     letter-spacing: 0.04em;
     line-height: 1.2;
 }
@@ -335,7 +335,6 @@ input[type="submit"]:hover {
     font-size: 1rem;
     font-weight: 400;
     font-style: italic;
-    color: var(--gold);
     margin-top: 8px;
     opacity: 0.8;
 }
