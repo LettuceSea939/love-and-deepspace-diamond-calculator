@@ -135,7 +135,7 @@ h2::after {
     gap: 12px;
 }
 
-/* Labels and Disclaimer */
+/* Labels, Disclaimer, and Lists */
 
 label,
 .disclaimer {
@@ -154,6 +154,30 @@ label {
     letter-spacing: 0.02em;
     margin: 20px 0;
     text-align: center;
+}
+
+ul {
+    margin-left: 1rem;
+}
+
+li {
+    color: var(--muted);
+    font-size: .8rem;
+    font-weight: 400;
+    letter-spacing: .08em;
+    line-height: 1.8;
+}
+
+li::marker {
+    color: var(--orange);
+}
+
+a {
+    color: var(--muted);
+}
+
+a:hover {
+    color: var(--orange);
 }
 
 /* Inputs & Selects */
